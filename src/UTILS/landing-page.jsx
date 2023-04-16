@@ -1,6 +1,7 @@
 import { Box, Container } from "@mui/material";
 import { Results } from "./Results";
 import { Login } from "./Login";
+import { News } from "./News";
 
 export const LandingPage = () => {
   return (
@@ -11,6 +12,9 @@ export const LandingPage = () => {
       >
         <Results />
         <Login />
+      </Box>
+      <Box>
+        <News />
       </Box>
     </Container>
   );
