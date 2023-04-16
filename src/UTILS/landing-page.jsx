@@ -1,5 +1,5 @@
 import { Box, Container } from "@mui/material";
-import { News } from "./News";
+import { Results } from "./Results";
 import { Login } from "./Login";
 
 export const LandingPage = () => {
@@ -9,7 +9,7 @@ export const LandingPage = () => {
         paddingTop={5}
         sx={{ display: "flex", justifyContent: "space-between" }}
       >
-        <News />
+        <Results />
         <Login />
       </Box>
     </Container>
